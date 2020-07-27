@@ -74,14 +74,14 @@ try {
         }
       }
     }
-  }
+  
   currentBuild.result = 'SUCCESS'
 }
 catch (org.jenkinsci.plugins.workflow.steps.FlowInterruptedException flowError) {
   currentBuild.result = 'ABORTED'
 }
 catch (err) {
-  currentBuild.result = 'FAILURE How is it possible'
+  currentBuild.result = 'FAILURE'
   throw err
 }
 finally {
