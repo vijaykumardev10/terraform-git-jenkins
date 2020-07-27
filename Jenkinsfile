@@ -41,7 +41,7 @@ try {
     }
   }
 
-  if (env.BRANCH_NAME == 'master') {
+  
 
     // Run terraform apply
     stage('apply') {
@@ -81,7 +81,7 @@ catch (org.jenkinsci.plugins.workflow.steps.FlowInterruptedException flowError) 
   currentBuild.result = 'ABORTED'
 }
 catch (err) {
-  currentBuild.result = 'FAILURE'
+  currentBuild.result = 'FAILURE How is it possible'
   throw err
 }
 finally {
