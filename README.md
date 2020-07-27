@@ -6,7 +6,6 @@ This repository will demonstrate an example GitOps workflow with Terraform and J
 
 
 
-Video can be found here:
 
 
 ## Requirements
