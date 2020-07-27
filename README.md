@@ -16,6 +16,7 @@ Video can be found here:
 * GitHub access token
 * AWS credentials
 * S3 bucket
+Please check above requirements
 
 ## Setup Bucket
 
